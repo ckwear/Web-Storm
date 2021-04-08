@@ -1,5 +1,5 @@
 <templateSet group="user">
-  <template name="then" value="    .then((result) =&gt; {&#10;        console.log(result);&#10;&#10;    })&#10;    .catch((err) =&gt; {&#10;        console.log(err);&#10;    });&#10;" shortcut="ENTER" toReformat="false" toShortenFQNames="true">
+  <template name="then" value="    .then((result) =&gt; {&#10;        console.log(result);&#10;&#10;    })&#10;    .catch((err) =&gt; {&#10;        console.log(err);&#10;    });&#10;" shortcut="ENTER" description="" toReformat="false" toShortenFQNames="true">
     <context>
       <option name="JAVA_SCRIPT" value="true" />
     </context>
