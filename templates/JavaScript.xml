@@ -1,5 +1,5 @@
 <templateSet group="JavaScript">
-  <template name="cnl" value="console.log($itme$);" shortcut="ENTER" description="" toReformat="false" toShortenFQNames="true">
+  <template name="cnl" value="console.log($itme$);" shortcut="SPACE" description="" toReformat="false" toShortenFQNames="true">
     <variable name="itme" expression="" defaultValue="" alwaysStopAt="true" />
     <context>
       <option name="JAVA_SCRIPT" value="true" />
