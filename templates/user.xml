@@ -12,7 +12,7 @@
       <option name="JAVA_SCRIPT" value="true" />
     </context>
   </template>
-  <template name="model" value="const models = require('../../models/wa/init-models')();" shortcut="ENTER" toReformat="false" toShortenFQNames="true">
+  <template name="model" value="const models = require('../../../models/wa/init-models')();" shortcut="ENTER" toReformat="false" toShortenFQNames="true">
     <context>
       <option name="JAVA_SCRIPT" value="true" />
     </context>
