@@ -3,18 +3,28 @@
     <keyboard-shortcut first-keystroke="shift alt f10" />
     <keyboard-shortcut first-keystroke="shift alt r" />
   </action>
+  <action id="Console.Execute.Multiline" />
+  <action id="Console.SplitLine" />
+  <action id="DirDiffMenu.SynchronizeDiff.All" />
   <action id="EditorSortLines">
     <keyboard-shortcut first-keystroke="ctrl alt w" />
   </action>
+  <action id="EditorSplitLine" />
   <action id="OpenFile">
     <keyboard-shortcut first-keystroke="shift ctrl alt o" />
   </action>
+  <action id="ProblemsView.QuickFixes" />
   <action id="RerunTests" />
   <action id="Run">
     <keyboard-shortcut first-keystroke="shift f10" />
     <keyboard-shortcut first-keystroke="alt r" />
+    <keyboard-shortcut first-keystroke="ctrl enter" />
   </action>
+  <action id="SetShortcutAction" />
+  <action id="ShowIntentionActions" />
   <action id="Terminal.OpenInTerminal">
     <keyboard-shortcut first-keystroke="shift back_quote" />
   </action>
+  <action id="Terminal.SmartCommandExecution.Run" />
+  <action id="ViewSource" />
 </keymap>
