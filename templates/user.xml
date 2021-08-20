@@ -4,4 +4,22 @@
       <option name="JAVA_SCRIPT" value="true" />
     </context>
   </template>
+  <template name="awi" value="// eslint-disable-next-line consistent-return,no-unused-vars&#10;async function $fucname$() {&#10;  try {&#10;    // eslint-disable-next-line camelcase&#10;    const $tableName$_$query$ = await models().$tableName$.$query$({});&#10;    &#10;    &#10;    // eslint-disable-next-line camelcase&#10;  } catch (err) {&#10;    console.log(err);&#10;  }&#10;}" shortcut="ENTER" description="" toReformat="false" toShortenFQNames="true">
+    <variable name="fucname" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="tableName" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="query" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+    </context>
+  </template>
+  <template name="model" value="const models = require('../../../models/wa/init-models')();" shortcut="ENTER" description="" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+    </context>
+  </template>
+  <template name="async" value="async (req, res) =&gt; {&#10;    &#10;}" shortcut="ENTER" description="" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+    </context>
+  </template>
 </templateSet>

@@ -1,5 +1,5 @@
 <templateSet group="JavaScript">
-  <template name="cnl" value="console.log($itme$);" shortcut="ENTER" description="" toReformat="false" toShortenFQNames="true">
+  <template name="cnl" value="console.log($itme$);" shortcut="SPACE" description="" toReformat="false" toShortenFQNames="true">
     <variable name="itme" expression="" defaultValue="" alwaysStopAt="true" />
     <context>
       <option name="JAVA_SCRIPT" value="true" />
@@ -27,6 +27,11 @@
     </context>
   </template>
   <template name="then" value=".then((result) =&gt; {&#10;  console.log(result);&#10;})&#10;.catch((err) =&gt; {&#10;  console.error(err);&#10;});" shortcut="ENTER" description="" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+    </context>
+  </template>
+  <template name="reqres" value="async (req, res) =&gt; {&#10;    try {&#10;    &#10;    } catch(err) {&#10;        res.json({code:2, message: process.env.DB_ERROR_MSG, error: err.message})&#10;    }&#10;}" shortcut="ENTER" description="" toReformat="false" toShortenFQNames="true">
     <context>
       <option name="JAVA_SCRIPT" value="true" />
     </context>
