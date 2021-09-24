@@ -3,8 +3,8 @@
     <extensionMap>
       <mapping pattern="auto-sequelize" type="AUTO_DETECTED" />
       <mapping pattern="auto_sequelize" type="AUTO_DETECTED" />
-      <mapping pattern=".prod.env" type="PLAIN_TEXT" />
       <mapping pattern=".ignoregit" type="PLAIN_TEXT" />
+      <mapping pattern=".prod.env" type="PLAIN_TEXT" />
       <mapping pattern=".test.env" type="PLAIN_TEXT" />
       <mapping pattern=".development.env" type="PLAIN_TEXT" />
       <mapping pattern=".env" type="PLAIN_TEXT" />
