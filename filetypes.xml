@@ -1,7 +1,0 @@
-<application>
-  <component name="FileTypeManager" version="17">
-    <extensionMap>
-      <mapping pattern="dockerc-compose-yaml" type="PLAIN_TEXT" />
-    </extensionMap>
-  </component>
-</application>
